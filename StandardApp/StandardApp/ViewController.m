@@ -1,0 +1,32 @@
+//
+//  ViewController.m
+//  StandardApp
+//
+//  Created by szzc on 2017/3/15.
+//  Copyright © 2017年 szzc. All rights reserved.
+//
+
+#import "ViewController.h"
+#import <StandardFrameWorkProject/SFWPObject.h>
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+    SFWPObject* sfwObject = [[SFWPObject alloc] init];
+    NSString* strResult = [sfwObject nameForStandFrameWorkProject];
+    self.textShow.text = strResult;
+}
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+
+@end

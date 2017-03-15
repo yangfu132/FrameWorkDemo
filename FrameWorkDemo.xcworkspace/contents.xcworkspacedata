@@ -2,13 +2,16 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:MainApp/MainApp.xcodeproj">
+      location = "group:StandardApp/StandardApp.xcodeproj">
    </FileRef>
    <Group
       location = "container:"
       name = "Custom FrameWork">
       <FileRef
-         location = "group:StandFrameWorkProject/StandFrameWorkProject.xcodeproj">
+         location = "group:UmbrellaFrameWorkProject/UmbrellaFrameWorkProject.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:StandardFrameWorkProject/StandardFrameWorkProject.xcodeproj">
       </FileRef>
    </Group>
 </Workspace>
