@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import <UmbrellaFrameWorkProject/UFWPObject.h>
 @interface ViewController ()
 
 @end
@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UFWPObject* ufwpObject = [[UFWPObject alloc] init];
+    self.textShow.text = [ufwpObject nameForUmbrellaFrameWorkProject];
 }
 
 

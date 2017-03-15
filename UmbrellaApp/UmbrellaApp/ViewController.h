@@ -10,6 +10,6 @@
 
 @interface ViewController : UIViewController
 
-
+@property (weak) IBOutlet UITextView* textShow;
 @end
 

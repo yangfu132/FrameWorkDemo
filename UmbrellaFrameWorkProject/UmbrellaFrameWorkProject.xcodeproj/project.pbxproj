@@ -11,7 +11,7 @@
 		544008E11E78DA6D0080F373 /* UmbrellaFrameWorkProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544008E01E78DA6D0080F373 /* UmbrellaFrameWorkProjectTests.m */; };
 		544008E31E78DA6D0080F373 /* UmbrellaFrameWorkProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 544008D51E78DA6D0080F373 /* UmbrellaFrameWorkProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		544008EF1E78DC380080F373 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 544008D61E78DA6D0080F373 /* Info.plist */; };
-		544008F41E78DCF60080F373 /* UFWPObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 544008F21E78DCF60080F373 /* UFWPObject.h */; };
+		544008F41E78DCF60080F373 /* UFWPObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 544008F21E78DCF60080F373 /* UFWPObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		544008F51E78DCF60080F373 /* UFWPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 544008F31E78DCF60080F373 /* UFWPObject.m */; };
 		545425D41E790DB7001C4463 /* StandardFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545425D31E790DB7001C4463 /* StandardFrameWorkProject.framework */; };
 		545425D51E790DBD001C4463 /* StandardFrameWorkProject.framework in Resources */ = {isa = PBXBuildFile; fileRef = 545425D31E790DB7001C4463 /* StandardFrameWorkProject.framework */; };
@@ -47,7 +47,6 @@
 		544008DB1E78DA6D0080F373 /* UmbrellaFrameWorkProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmbrellaFrameWorkProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		544008E01E78DA6D0080F373 /* UmbrellaFrameWorkProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UmbrellaFrameWorkProjectTests.m; sourceTree = "<group>"; };
 		544008E21E78DA6D0080F373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		544008ED1E78DAD70080F373 /* StandFrameWorkProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StandFrameWorkProject.framework; path = "../../Library/Developer/Xcode/DerivedData/FrameWorkDemo-gkmrzhjghzwjxybussqtbicybghm/Build/Products/Debug-iphonesimulator/StandFrameWorkProject.framework"; sourceTree = "<group>"; };
 		544008F21E78DCF60080F373 /* UFWPObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFWPObject.h; sourceTree = "<group>"; };
 		544008F31E78DCF60080F373 /* UFWPObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFWPObject.m; sourceTree = "<group>"; };
 		545425D31E790DB7001C4463 /* StandardFrameWorkProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StandardFrameWorkProject.framework; path = "../../Library/Developer/Xcode/DerivedData/FrameWorkDemo-gkmrzhjghzwjxybussqtbicybghm/Build/Products/Debug-iphonesimulator/StandardFrameWorkProject.framework"; sourceTree = "<group>"; };
@@ -116,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				545425D31E790DB7001C4463 /* StandardFrameWorkProject.framework */,
-				544008ED1E78DAD70080F373 /* StandFrameWorkProject.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,8 +126,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				544008E31E78DA6D0080F373 /* UmbrellaFrameWorkProject.h in Headers */,
 				544008F41E78DCF60080F373 /* UFWPObject.h in Headers */,
+				544008E31E78DA6D0080F373 /* UmbrellaFrameWorkProject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
