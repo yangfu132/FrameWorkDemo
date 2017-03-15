@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:UmbrellaApp/UmbrellaApp.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:StandardApp/StandardApp.xcodeproj">
    </FileRef>
    <Group

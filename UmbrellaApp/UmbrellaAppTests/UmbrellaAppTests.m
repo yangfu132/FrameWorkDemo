@@ -1,18 +1,18 @@
 //
-//  FrameWorkDemoTests.m
-//  FrameWorkDemoTests
+//  UmbrellaAppTests.m
+//  UmbrellaAppTests
 //
-//  Created by szzc on 2017/3/13.
+//  Created by szzc on 2017/3/15.
 //  Copyright © 2017年 szzc. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface FrameWorkDemoTests : XCTestCase
+@interface UmbrellaAppTests : XCTestCase
 
 @end
 
-@implementation FrameWorkDemoTests
+@implementation UmbrellaAppTests
 
 - (void)setUp {
     [super setUp];
