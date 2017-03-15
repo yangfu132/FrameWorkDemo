@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <StandardFrameWorkProject/SFWPObject.h>
+#import <StandardFrameWorkProject/SFWPCustomObject.h>
 @interface ViewController ()
 
 @end
@@ -17,8 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
     SFWPObject* sfwObject = [[SFWPObject alloc] init];
     NSString* strResult = [sfwObject nameForStandFrameWorkProject];
+    
+    SFWPCustomObject* customObject = [[SFWPCustomObject alloc] init];
+    strResult = [strResult stringByAppendingString:[customObject customStringForStandFrameWorkProject]];
     self.textShow.text = strResult;
 }
 

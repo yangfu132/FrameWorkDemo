@@ -12,6 +12,8 @@
 		545425BD1E790B07001C4463 /* StandardFrameWorkProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 545425AF1E790B07001C4463 /* StandardFrameWorkProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		545425C81E790B28001C4463 /* SFWPObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 545425C61E790B28001C4463 /* SFWPObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		545425C91E790B28001C4463 /* SFWPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 545425C71E790B28001C4463 /* SFWPObject.m */; };
+		5454261D1E79164F001C4463 /* SFWPCustomObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5454261B1E79164F001C4463 /* SFWPCustomObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5454261E1E79164F001C4463 /* SFWPCustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5454261C1E79164F001C4463 /* SFWPCustomObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		545425BC1E790B07001C4463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		545425C61E790B28001C4463 /* SFWPObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFWPObject.h; sourceTree = "<group>"; };
 		545425C71E790B28001C4463 /* SFWPObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFWPObject.m; sourceTree = "<group>"; };
+		5454261B1E79164F001C4463 /* SFWPCustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFWPCustomObject.h; sourceTree = "<group>"; };
+		5454261C1E79164F001C4463 /* SFWPCustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFWPCustomObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		545425AE1E790B07001C4463 /* StandardFrameWorkProject */ = {
 			isa = PBXGroup;
 			children = (
+				5454261A1E791638001C4463 /* Custom */,
 				545425C61E790B28001C4463 /* SFWPObject.h */,
 				545425C71E790B28001C4463 /* SFWPObject.m */,
 				545425AF1E790B07001C4463 /* StandardFrameWorkProject.h */,
@@ -92,6 +97,15 @@
 			path = StandardFrameWorkProjectTests;
 			sourceTree = "<group>";
 		};
+		5454261A1E791638001C4463 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5454261B1E79164F001C4463 /* SFWPCustomObject.h */,
+				5454261C1E79164F001C4463 /* SFWPCustomObject.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -99,6 +113,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5454261D1E79164F001C4463 /* SFWPCustomObject.h in Headers */,
 				545425C81E790B28001C4463 /* SFWPObject.h in Headers */,
 				545425BD1E790B07001C4463 /* StandardFrameWorkProject.h in Headers */,
 			);
@@ -203,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				545425C91E790B28001C4463 /* SFWPObject.m in Sources */,
+				5454261E1E79164F001C4463 /* SFWPCustomObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
