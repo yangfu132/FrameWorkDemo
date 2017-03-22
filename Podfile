@@ -13,15 +13,14 @@ target 'StandardFrameWorkProject' do
  pod 'FCModel', "~> 0.9.0"
 end
 
-target 'UmbrellaApp' do
- platform :ios, '10.0'
- xcodeproj 'UmbrellaApp/UmbrellaApp.xcodeproj'
- pod SDWebImage', "~> 3.7.0"
-end
-
 target 'UmbrellaFrameWorkProject' do
  platform :ios, '10.0'
  xcodeproj 'UmbrellaFrameWorkProject/UmbrellaFrameWorkProject.xcodeproj'
- pod 'SpinKit', "1.2.0"
+ pod 'SpinKit', "~> 1.2.0"
 end
 
+target 'UmbrellaApp' do
+ platform :ios, '10.0'
+ xcodeproj 'UmbrellaApp/UmbrellaApp.xcodeproj'
+ pod 'SDWebImage', "~> 3.7.0"
+end
