@@ -27,6 +27,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - FCModel (~> 0.9.0)
+  - SDWebImage
   - SDWebImage (~> 3.7.0)
   - SpinKit (~> 1.2.0)
 
@@ -37,6 +38,6 @@ SPEC CHECKSUMS:
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   SpinKit: 65906a8b534a4e14cbfd3f8b0b6c329131faef4a
 
-PODFILE CHECKSUM: 6bcc23427a466f060cab96859a8fb13899446aab
+PODFILE CHECKSUM: 78be53f95d3d055e3cd5c7e78ea0b8a64a4af01d
 
 COCOAPODS: 1.2.0

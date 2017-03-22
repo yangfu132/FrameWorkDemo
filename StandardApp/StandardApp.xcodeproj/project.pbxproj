@@ -17,6 +17,7 @@
 		545425951E790A93001C4463 /* StandardAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 545425941E790A93001C4463 /* StandardAppUITests.m */; };
 		6943C3C71E825DFC006248EA /* StandardFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6943C3C61E825DFC006248EA /* StandardFrameWorkProject.framework */; };
 		6943C3CB1E825E0D006248EA /* libPods-StandardApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6943C3CA1E825E0D006248EA /* libPods-StandardApp.a */; };
+		FCF8ED2AE6246CC6497E6C56 /* libPods-StandardApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C1FB97FBC458F774C9FFB0 /* libPods-StandardApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		42C1FB97FBC458F774C9FFB0 /* libPods-StandardApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StandardApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5454256C1E790A92001C4463 /* StandardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		545425701E790A92001C4463 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		545425721E790A92001C4463 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			files = (
 				6943C3CB1E825E0D006248EA /* libPods-StandardApp.a in Frameworks */,
 				6943C3C71E825DFC006248EA /* StandardFrameWorkProject.framework in Frameworks */,
+				FCF8ED2AE6246CC6497E6C56 /* libPods-StandardApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +173,7 @@
 				6943C3CA1E825E0D006248EA /* libPods-StandardApp.a */,
 				6943C3C81E825E00006248EA /* UmbrellaFrameWorkProject.framework */,
 				6943C3C61E825DFC006248EA /* StandardFrameWorkProject.framework */,
+				42C1FB97FBC458F774C9FFB0 /* libPods-StandardApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
