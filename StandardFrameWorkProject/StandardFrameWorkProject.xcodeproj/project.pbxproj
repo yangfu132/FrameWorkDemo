@@ -14,6 +14,7 @@
 		545425C91E790B28001C4463 /* SFWPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 545425C71E790B28001C4463 /* SFWPObject.m */; };
 		5454261D1E79164F001C4463 /* SFWPCustomObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5454261B1E79164F001C4463 /* SFWPCustomObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5454261E1E79164F001C4463 /* SFWPCustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5454261C1E79164F001C4463 /* SFWPCustomObject.m */; };
+		F18DD801BBB68365BEACCA7C /* libPods-StandardFrameWorkProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E50678E38593D81BA22DA44 /* libPods-StandardFrameWorkProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,9 @@
 		545425C71E790B28001C4463 /* SFWPObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFWPObject.m; sourceTree = "<group>"; };
 		5454261B1E79164F001C4463 /* SFWPCustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFWPCustomObject.h; sourceTree = "<group>"; };
 		5454261C1E79164F001C4463 /* SFWPCustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFWPCustomObject.m; sourceTree = "<group>"; };
+		6E50678E38593D81BA22DA44 /* libPods-StandardFrameWorkProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StandardFrameWorkProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		779366FCD9099984F434DA19 /* Pods-StandardFrameWorkProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandardFrameWorkProject.release.xcconfig"; path = "../Pods/Target Support Files/Pods-StandardFrameWorkProject/Pods-StandardFrameWorkProject.release.xcconfig"; sourceTree = "<group>"; };
+		EE1EEAF3A9AEA7F0A00564CA /* Pods-StandardFrameWorkProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandardFrameWorkProject.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-StandardFrameWorkProject/Pods-StandardFrameWorkProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18DD801BBB68365BEACCA7C /* libPods-StandardFrameWorkProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +69,8 @@
 				545425AE1E790B07001C4463 /* StandardFrameWorkProject */,
 				545425B91E790B07001C4463 /* StandardFrameWorkProjectTests */,
 				545425AD1E790B07001C4463 /* Products */,
+				5693DC1483ECC8013EE5761E /* Pods */,
+				D1B1D7168950F4AEA1905F62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +113,23 @@
 			path = Custom;
 			sourceTree = "<group>";
 		};
+		5693DC1483ECC8013EE5761E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE1EEAF3A9AEA7F0A00564CA /* Pods-StandardFrameWorkProject.debug.xcconfig */,
+				779366FCD9099984F434DA19 /* Pods-StandardFrameWorkProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1B1D7168950F4AEA1905F62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E50678E38593D81BA22DA44 /* libPods-StandardFrameWorkProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -126,10 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 545425C01E790B07001C4463 /* Build configuration list for PBXNativeTarget "StandardFrameWorkProject" */;
 			buildPhases = (
+				70C7FD8897E4A46425682F9C /* [CP] Check Pods Manifest.lock */,
 				545425A71E790B07001C4463 /* Sources */,
 				545425A81E790B07001C4463 /* Frameworks */,
 				545425A91E790B07001C4463 /* Headers */,
 				545425AA1E790B07001C4463 /* Resources */,
+				7E941CEB9A365741CF571F0C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,6 +237,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70C7FD8897E4A46425682F9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E941CEB9A365741CF571F0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-StandardFrameWorkProject/Pods-StandardFrameWorkProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		545425A71E790B07001C4463 /* Sources */ = {
@@ -339,6 +398,7 @@
 		};
 		545425C11E790B07001C4463 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE1EEAF3A9AEA7F0A00564CA /* Pods-StandardFrameWorkProject.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -356,6 +416,7 @@
 		};
 		545425C21E790B07001C4463 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 779366FCD9099984F434DA19 /* Pods-StandardFrameWorkProject.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;

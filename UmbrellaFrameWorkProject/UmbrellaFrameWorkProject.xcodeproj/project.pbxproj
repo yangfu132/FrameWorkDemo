@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E57E295DDA7883B4FD19D67 /* libPods-UmbrellaFrameWorkProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3925E3B0FF370F663BC638 /* libPods-UmbrellaFrameWorkProject.a */; };
 		544008DC1E78DA6D0080F373 /* UmbrellaFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544008D21E78DA6D0080F373 /* UmbrellaFrameWorkProject.framework */; };
 		544008E11E78DA6D0080F373 /* UmbrellaFrameWorkProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544008E01E78DA6D0080F373 /* UmbrellaFrameWorkProjectTests.m */; };
 		544008E31E78DA6D0080F373 /* UmbrellaFrameWorkProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 544008D51E78DA6D0080F373 /* UmbrellaFrameWorkProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,6 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		46A88E86CAA947874E2CB6B0 /* Pods-UmbrellaFrameWorkProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmbrellaFrameWorkProject.release.xcconfig"; path = "../Pods/Target Support Files/Pods-UmbrellaFrameWorkProject/Pods-UmbrellaFrameWorkProject.release.xcconfig"; sourceTree = "<group>"; };
+		4E3925E3B0FF370F663BC638 /* libPods-UmbrellaFrameWorkProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UmbrellaFrameWorkProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		544008D21E78DA6D0080F373 /* UmbrellaFrameWorkProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UmbrellaFrameWorkProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		544008D51E78DA6D0080F373 /* UmbrellaFrameWorkProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UmbrellaFrameWorkProject.h; sourceTree = "<group>"; };
 		544008D61E78DA6D0080F373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +53,7 @@
 		544008F21E78DCF60080F373 /* UFWPObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFWPObject.h; sourceTree = "<group>"; };
 		544008F31E78DCF60080F373 /* UFWPObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFWPObject.m; sourceTree = "<group>"; };
 		545425D31E790DB7001C4463 /* StandardFrameWorkProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StandardFrameWorkProject.framework; path = "../../Library/Developer/Xcode/DerivedData/FrameWorkDemo-gkmrzhjghzwjxybussqtbicybghm/Build/Products/Debug-iphonesimulator/StandardFrameWorkProject.framework"; sourceTree = "<group>"; };
+		BD81A8E4A523C673B31C9115 /* Pods-UmbrellaFrameWorkProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmbrellaFrameWorkProject.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-UmbrellaFrameWorkProject/Pods-UmbrellaFrameWorkProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				545425D41E790DB7001C4463 /* StandardFrameWorkProject.framework in Frameworks */,
+				4E57E295DDA7883B4FD19D67 /* libPods-UmbrellaFrameWorkProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +84,7 @@
 				544008DF1E78DA6D0080F373 /* UmbrellaFrameWorkProjectTests */,
 				544008D31E78DA6D0080F373 /* Products */,
 				544008EC1E78DAD70080F373 /* Frameworks */,
+				DFE3E033F7B6C7F4E9DBACF5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,8 +121,18 @@
 			isa = PBXGroup;
 			children = (
 				545425D31E790DB7001C4463 /* StandardFrameWorkProject.framework */,
+				4E3925E3B0FF370F663BC638 /* libPods-UmbrellaFrameWorkProject.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFE3E033F7B6C7F4E9DBACF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD81A8E4A523C673B31C9115 /* Pods-UmbrellaFrameWorkProject.debug.xcconfig */,
+				46A88E86CAA947874E2CB6B0 /* Pods-UmbrellaFrameWorkProject.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,11 +154,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 544008E61E78DA6D0080F373 /* Build configuration list for PBXNativeTarget "UmbrellaFrameWorkProject" */;
 			buildPhases = (
+				3AD572ADE800B9E86BFDC8A8 /* [CP] Check Pods Manifest.lock */,
 				544008CD1E78DA6D0080F373 /* Sources */,
 				544008CE1E78DA6D0080F373 /* Frameworks */,
 				544008CF1E78DA6D0080F373 /* Headers */,
 				544008D01E78DA6D0080F373 /* Resources */,
 				544008F01E78DC7A0080F373 /* Sub Frameworks */,
+				1E73C1C260AEA0517E01F41B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,6 +244,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E73C1C260AEA0517E01F41B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-UmbrellaFrameWorkProject/Pods-UmbrellaFrameWorkProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AD572ADE800B9E86BFDC8A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		544008CD1E78DA6D0080F373 /* Sources */ = {
@@ -353,6 +404,7 @@
 		};
 		544008E71E78DA6D0080F373 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD81A8E4A523C673B31C9115 /* Pods-UmbrellaFrameWorkProject.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -370,6 +422,7 @@
 		};
 		544008E81E78DA6D0080F373 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A88E86CAA947874E2CB6B0 /* Pods-UmbrellaFrameWorkProject.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;

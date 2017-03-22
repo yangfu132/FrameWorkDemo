@@ -16,6 +16,7 @@
 		545425FD1E790E06001C4463 /* UmbrellaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 545425FC1E790E06001C4463 /* UmbrellaAppTests.m */; };
 		545426081E790E06001C4463 /* UmbrellaAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 545426071E790E06001C4463 /* UmbrellaAppUITests.m */; };
 		545426171E790ECB001C4463 /* UmbrellaFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545426161E790ECB001C4463 /* UmbrellaFrameWorkProject.framework */; };
+		FD720CA9F0DE07504EEFF61B /* libPods-UmbrellaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A85DDB46F9F2A850B71A7ED2 /* libPods-UmbrellaApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 		545426071E790E06001C4463 /* UmbrellaAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UmbrellaAppUITests.m; sourceTree = "<group>"; };
 		545426091E790E06001C4463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		545426161E790ECB001C4463 /* UmbrellaFrameWorkProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UmbrellaFrameWorkProject.framework; path = "../../Library/Developer/Xcode/DerivedData/FrameWorkDemo-gkmrzhjghzwjxybussqtbicybghm/Build/Products/Debug-iphonesimulator/UmbrellaFrameWorkProject.framework"; sourceTree = "<group>"; };
+		A85DDB46F9F2A850B71A7ED2 /* libPods-UmbrellaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UmbrellaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0E71416BC460FA1D591E2F /* Pods-UmbrellaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmbrellaApp.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-UmbrellaApp/Pods-UmbrellaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F2701B76AC30C59FA7923250 /* Pods-UmbrellaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmbrellaApp.release.xcconfig"; path = "../Pods/Target Support Files/Pods-UmbrellaApp/Pods-UmbrellaApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				545426171E790ECB001C4463 /* UmbrellaFrameWorkProject.framework in Frameworks */,
+				FD720CA9F0DE07504EEFF61B /* libPods-UmbrellaApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E6551999B4A69A075D11241 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF0E71416BC460FA1D591E2F /* Pods-UmbrellaApp.debug.xcconfig */,
+				F2701B76AC30C59FA7923250 /* Pods-UmbrellaApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		545425D61E790E06001C4463 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +103,7 @@
 				545426061E790E06001C4463 /* UmbrellaAppUITests */,
 				545425E01E790E06001C4463 /* Products */,
 				545426151E790ECB001C4463 /* Frameworks */,
+				3E6551999B4A69A075D11241 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				545426161E790ECB001C4463 /* UmbrellaFrameWorkProject.framework */,
+				A85DDB46F9F2A850B71A7ED2 /* libPods-UmbrellaApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5454260C1E790E06001C4463 /* Build configuration list for PBXNativeTarget "UmbrellaApp" */;
 			buildPhases = (
+				0B8F87C2AB7D04FB8CFE055E /* [CP] Check Pods Manifest.lock */,
 				545425DB1E790E06001C4463 /* Sources */,
 				545425DC1E790E06001C4463 /* Frameworks */,
 				545425DD1E790E06001C4463 /* Resources */,
+				6C5E423F14CAAD7D7079AA9A /* [CP] Embed Pods Frameworks */,
+				7B109485C3476C230E99FACC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,6 +298,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B8F87C2AB7D04FB8CFE055E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C5E423F14CAAD7D7079AA9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-UmbrellaApp/Pods-UmbrellaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B109485C3476C230E99FACC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-UmbrellaApp/Pods-UmbrellaApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		545425DB1E790E06001C4463 /* Sources */ = {
@@ -434,6 +501,7 @@
 		};
 		5454260D1E790E06001C4463 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF0E71416BC460FA1D591E2F /* Pods-UmbrellaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UmbrellaApp/Info.plist;
@@ -445,6 +513,7 @@
 		};
 		5454260E1E790E06001C4463 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2701B76AC30C59FA7923250 /* Pods-UmbrellaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UmbrellaApp/Info.plist;
