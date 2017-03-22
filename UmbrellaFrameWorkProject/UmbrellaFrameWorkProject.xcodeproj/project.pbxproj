@@ -14,8 +14,8 @@
 		544008EF1E78DC380080F373 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 544008D61E78DA6D0080F373 /* Info.plist */; };
 		544008F41E78DCF60080F373 /* UFWPObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 544008F21E78DCF60080F373 /* UFWPObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		544008F51E78DCF60080F373 /* UFWPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 544008F31E78DCF60080F373 /* UFWPObject.m */; };
-		545425D41E790DB7001C4463 /* StandardFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545425D31E790DB7001C4463 /* StandardFrameWorkProject.framework */; };
-		545425D51E790DBD001C4463 /* StandardFrameWorkProject.framework in Resources */ = {isa = PBXBuildFile; fileRef = 545425D31E790DB7001C4463 /* StandardFrameWorkProject.framework */; };
+		6943C3CD1E825F85006248EA /* StandardFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6943C3CC1E825F85006248EA /* StandardFrameWorkProject.framework */; };
+		6943C3CE1E825F91006248EA /* StandardFrameWorkProject.framework in Sub Frameworks */ = {isa = PBXBuildFile; fileRef = 6943C3CC1E825F85006248EA /* StandardFrameWorkProject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				6943C3CE1E825F91006248EA /* StandardFrameWorkProject.framework in Sub Frameworks */,
 			);
 			name = "Sub Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +54,7 @@
 		544008F21E78DCF60080F373 /* UFWPObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFWPObject.h; sourceTree = "<group>"; };
 		544008F31E78DCF60080F373 /* UFWPObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFWPObject.m; sourceTree = "<group>"; };
 		545425D31E790DB7001C4463 /* StandardFrameWorkProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StandardFrameWorkProject.framework; path = "../../Library/Developer/Xcode/DerivedData/FrameWorkDemo-gkmrzhjghzwjxybussqtbicybghm/Build/Products/Debug-iphonesimulator/StandardFrameWorkProject.framework"; sourceTree = "<group>"; };
+		6943C3CC1E825F85006248EA /* StandardFrameWorkProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StandardFrameWorkProject.framework; path = "../../Library/Developer/Xcode/DerivedData/FrameWorkDemo-cltvtlrmujwjjpasxopmzgkgbcrt/Build/Products/Debug-iphonesimulator/StandardFrameWorkProject.framework"; sourceTree = "<group>"; };
 		BD81A8E4A523C673B31C9115 /* Pods-UmbrellaFrameWorkProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmbrellaFrameWorkProject.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-UmbrellaFrameWorkProject/Pods-UmbrellaFrameWorkProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				545425D41E790DB7001C4463 /* StandardFrameWorkProject.framework in Frameworks */,
+				6943C3CD1E825F85006248EA /* StandardFrameWorkProject.framework in Frameworks */,
 				4E57E295DDA7883B4FD19D67 /* libPods-UmbrellaFrameWorkProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +122,7 @@
 		544008EC1E78DAD70080F373 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6943C3CC1E825F85006248EA /* StandardFrameWorkProject.framework */,
 				545425D31E790DB7001C4463 /* StandardFrameWorkProject.framework */,
 				4E3925E3B0FF370F663BC638 /* libPods-UmbrellaFrameWorkProject.a */,
 			);
@@ -231,7 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				545425D51E790DBD001C4463 /* StandardFrameWorkProject.framework in Resources */,
 				544008EF1E78DC380080F373 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

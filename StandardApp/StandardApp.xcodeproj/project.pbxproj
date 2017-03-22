@@ -15,8 +15,8 @@
 		5454257F1E790A92001C4463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5454257D1E790A92001C4463 /* LaunchScreen.storyboard */; };
 		5454258A1E790A92001C4463 /* StandardAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 545425891E790A92001C4463 /* StandardAppTests.m */; };
 		545425951E790A93001C4463 /* StandardAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 545425941E790A93001C4463 /* StandardAppUITests.m */; };
-		545425D11E790C4C001C4463 /* StandardFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545425D01E790C4C001C4463 /* StandardFrameWorkProject.framework */; };
-		81D6323C51F34CCD5802A40F /* libPods-StandardApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FDDAB52950BF79CFC04F28 /* libPods-StandardApp.a */; };
+		6943C3C71E825DFC006248EA /* StandardFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6943C3C61E825DFC006248EA /* StandardFrameWorkProject.framework */; };
+		6943C3CB1E825E0D006248EA /* libPods-StandardApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6943C3CA1E825E0D006248EA /* libPods-StandardApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +66,9 @@
 		545425901E790A93001C4463 /* StandardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		545425941E790A93001C4463 /* StandardAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandardAppUITests.m; sourceTree = "<group>"; };
 		545425961E790A93001C4463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		545425D01E790C4C001C4463 /* StandardFrameWorkProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StandardFrameWorkProject.framework; path = "../../Library/Developer/Xcode/DerivedData/FrameWorkDemo-gkmrzhjghzwjxybussqtbicybghm/Build/Products/Debug-iphonesimulator/StandardFrameWorkProject.framework"; sourceTree = "<group>"; };
-		C5FDDAB52950BF79CFC04F28 /* libPods-StandardApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StandardApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6943C3C61E825DFC006248EA /* StandardFrameWorkProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StandardFrameWorkProject.framework; path = "../../Library/Developer/Xcode/DerivedData/FrameWorkDemo-cltvtlrmujwjjpasxopmzgkgbcrt/Build/Products/Debug-iphonesimulator/StandardFrameWorkProject.framework"; sourceTree = "<group>"; };
+		6943C3C81E825E00006248EA /* UmbrellaFrameWorkProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UmbrellaFrameWorkProject.framework; path = "../../Library/Developer/Xcode/DerivedData/FrameWorkDemo-cltvtlrmujwjjpasxopmzgkgbcrt/Build/Products/Debug-iphonesimulator/UmbrellaFrameWorkProject.framework"; sourceTree = "<group>"; };
+		6943C3CA1E825E0D006248EA /* libPods-StandardApp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-StandardApp.a"; path = "/Users/yangfl/FrameWorkDemo/Pods/../build/Debug-iphoneos/libPods-StandardApp.a"; sourceTree = "<absolute>"; };
 		E12DA0B619254C334E56162D /* Pods-StandardApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandardApp.release.xcconfig"; path = "../Pods/Target Support Files/Pods-StandardApp/Pods-StandardApp.release.xcconfig"; sourceTree = "<group>"; };
 		EC5E6445A92A3F900BB2B5F8 /* Pods-StandardApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandardApp.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-StandardApp/Pods-StandardApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,8 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				545425D11E790C4C001C4463 /* StandardFrameWorkProject.framework in Frameworks */,
-				81D6323C51F34CCD5802A40F /* libPods-StandardApp.a in Frameworks */,
+				6943C3CB1E825E0D006248EA /* libPods-StandardApp.a in Frameworks */,
+				6943C3C71E825DFC006248EA /* StandardFrameWorkProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,8 +167,9 @@
 		545425CF1E790C4C001C4463 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				545425D01E790C4C001C4463 /* StandardFrameWorkProject.framework */,
-				C5FDDAB52950BF79CFC04F28 /* libPods-StandardApp.a */,
+				6943C3CA1E825E0D006248EA /* libPods-StandardApp.a */,
+				6943C3C81E825E00006248EA /* UmbrellaFrameWorkProject.framework */,
+				6943C3C61E825DFC006248EA /* StandardFrameWorkProject.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -602,6 +604,7 @@
 				5454259B1E790A93001C4463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5454259C1E790A93001C4463 /* Build configuration list for PBXNativeTarget "StandardAppTests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +613,7 @@
 				5454259E1E790A93001C4463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5454259F1E790A93001C4463 /* Build configuration list for PBXNativeTarget "StandardAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -618,6 +622,7 @@
 				545425A11E790A93001C4463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
