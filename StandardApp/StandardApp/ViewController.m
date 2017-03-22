@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <StandardFrameWorkProject/SFWPObject.h>
-#import <StandardFrameWorkProject/SFWPCustomObject.h>
+#import <StandardFrameWorkProject/StandardFrameWorkProject.h>
 @interface ViewController ()
 
 @end
