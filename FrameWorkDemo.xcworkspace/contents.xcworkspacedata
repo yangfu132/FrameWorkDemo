@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:StandardApp/StandardApp.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:UmbrellaApp/UmbrellaApp.xcodeproj">
-   </FileRef>
+   <Group
+      location = "container:"
+      name = "App">
+      <FileRef
+         location = "group:UmbrellaApp/UmbrellaApp.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:StandardApp/StandardApp.xcodeproj">
+      </FileRef>
+   </Group>
    <Group
       location = "container:"
       name = "Custom FrameWork">

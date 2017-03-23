@@ -5,7 +5,7 @@ target 'StandardApp' do
  platform :ios, '10.0'
  xcodeproj 'StandardApp/StandardApp.xcodeproj'
  pod 'AFNetworking', "~> 3.0"
- pod 'SDWebImage'
+ pod 'SDWebImage', "~> 3.8"
 end
 
 target 'StandardFrameWorkProject' do
