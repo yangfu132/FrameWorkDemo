@@ -12,11 +12,11 @@
 
 - (NSString*) nameForStandFrameWorkProject
 {
-    return @"Name For Stand!";
+    return @"Name For Stand by Standard!";
 }
 
 - (NSString*) nameForUmbrellaFrameWorkProject
 {
-    return @"name For Umbrella!";
+    return @"name For Umbrella by Standard!";
 }
 @end

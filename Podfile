@@ -24,5 +24,5 @@ end
 target 'UmbrellaApp' do
  platform :ios, '10.0'
  xcodeproj 'UmbrellaApp/UmbrellaApp.xcodeproj'
- pod 'SDWebImage', "~> 3.7.0"
+# pod 'SDWebImage', "~> 3.7.0"
 end

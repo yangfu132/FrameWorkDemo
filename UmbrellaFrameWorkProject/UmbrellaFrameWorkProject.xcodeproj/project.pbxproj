@@ -16,6 +16,7 @@
 		544008F51E78DCF60080F373 /* UFWPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 544008F31E78DCF60080F373 /* UFWPObject.m */; };
 		6943C3CD1E825F85006248EA /* StandardFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6943C3CC1E825F85006248EA /* StandardFrameWorkProject.framework */; };
 		6943C3CE1E825F91006248EA /* StandardFrameWorkProject.framework in Sub Frameworks */ = {isa = PBXBuildFile; fileRef = 6943C3CC1E825F85006248EA /* StandardFrameWorkProject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		696A4A181E88FBEC00A02B4A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696A4A171E88FBEC00A02B4A /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		544008F31E78DCF60080F373 /* UFWPObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFWPObject.m; sourceTree = "<group>"; };
 		545425D31E790DB7001C4463 /* StandardFrameWorkProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StandardFrameWorkProject.framework; path = "../../Library/Developer/Xcode/DerivedData/FrameWorkDemo-gkmrzhjghzwjxybussqtbicybghm/Build/Products/Debug-iphonesimulator/StandardFrameWorkProject.framework"; sourceTree = "<group>"; };
 		6943C3CC1E825F85006248EA /* StandardFrameWorkProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StandardFrameWorkProject.framework; path = "../../Library/Developer/Xcode/DerivedData/FrameWorkDemo-cltvtlrmujwjjpasxopmzgkgbcrt/Build/Products/Debug-iphonesimulator/StandardFrameWorkProject.framework"; sourceTree = "<group>"; };
+		696A4A171E88FBEC00A02B4A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		BD81A8E4A523C673B31C9115 /* Pods-UmbrellaFrameWorkProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmbrellaFrameWorkProject.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-UmbrellaFrameWorkProject/Pods-UmbrellaFrameWorkProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 		544008C81E78DA6D0080F373 = {
 			isa = PBXGroup;
 			children = (
+				696A4A171E88FBEC00A02B4A /* Media.xcassets */,
 				544008D41E78DA6D0080F373 /* UmbrellaFrameWorkProject */,
 				544008DF1E78DA6D0080F373 /* UmbrellaFrameWorkProjectTests */,
 				544008D31E78DA6D0080F373 /* Products */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				544008EF1E78DC380080F373 /* Info.plist in Resources */,
+				696A4A181E88FBEC00A02B4A /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

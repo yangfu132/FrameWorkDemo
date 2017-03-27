@@ -11,6 +11,9 @@
 @implementation UFWPObject
 - (NSString*) nameForUmbrellaFrameWorkProject
 {
-    return [[SFWPObject alloc] nameForUmbrellaFrameWorkProject];
+    NSString* strDemo = @"In Umbrella: ";
+    NSString* standDemo = [[SFWPObject alloc] nameForUmbrellaFrameWorkProject];
+    strDemo = [strDemo stringByAppendingString:standDemo];
+    return strDemo;
 }
 @end
