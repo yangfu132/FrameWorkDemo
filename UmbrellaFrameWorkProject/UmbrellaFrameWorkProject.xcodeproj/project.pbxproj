@@ -14,7 +14,6 @@
 		544008EF1E78DC380080F373 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 544008D61E78DA6D0080F373 /* Info.plist */; };
 		544008F41E78DCF60080F373 /* UFWPObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 544008F21E78DCF60080F373 /* UFWPObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		544008F51E78DCF60080F373 /* UFWPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 544008F31E78DCF60080F373 /* UFWPObject.m */; };
-		6943C3CD1E825F85006248EA /* StandardFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6943C3CC1E825F85006248EA /* StandardFrameWorkProject.framework */; };
 		6943C3CE1E825F91006248EA /* StandardFrameWorkProject.framework in Sub Frameworks */ = {isa = PBXBuildFile; fileRef = 6943C3CC1E825F85006248EA /* StandardFrameWorkProject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		696A4A181E88FBEC00A02B4A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696A4A171E88FBEC00A02B4A /* Media.xcassets */; };
 /* End PBXBuildFile section */
@@ -65,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6943C3CD1E825F85006248EA /* StandardFrameWorkProject.framework in Frameworks */,
 				4E57E295DDA7883B4FD19D67 /* libPods-UmbrellaFrameWorkProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
