@@ -16,6 +16,9 @@
 		544008F51E78DCF60080F373 /* UFWPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 544008F31E78DCF60080F373 /* UFWPObject.m */; };
 		6943C3CE1E825F91006248EA /* StandardFrameWorkProject.framework in Sub Frameworks */ = {isa = PBXBuildFile; fileRef = 6943C3CC1E825F85006248EA /* StandardFrameWorkProject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		696A4A181E88FBEC00A02B4A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696A4A171E88FBEC00A02B4A /* Media.xcassets */; };
+		69FCF5101E8A09EA007FA69C /* UFWUmbrellaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FCF50D1E8A09EA007FA69C /* UFWUmbrellaViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69FCF5111E8A09EA007FA69C /* UFWUmbrellaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FCF50E1E8A09EA007FA69C /* UFWUmbrellaViewController.m */; };
+		69FCF5121E8A09EA007FA69C /* UFWUmbrellaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69FCF50F1E8A09EA007FA69C /* UFWUmbrellaViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		545425D31E790DB7001C4463 /* StandardFrameWorkProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StandardFrameWorkProject.framework; path = "../../Library/Developer/Xcode/DerivedData/FrameWorkDemo-gkmrzhjghzwjxybussqtbicybghm/Build/Products/Debug-iphonesimulator/StandardFrameWorkProject.framework"; sourceTree = "<group>"; };
 		6943C3CC1E825F85006248EA /* StandardFrameWorkProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StandardFrameWorkProject.framework; path = "../../Library/Developer/Xcode/DerivedData/FrameWorkDemo-cltvtlrmujwjjpasxopmzgkgbcrt/Build/Products/Debug-iphonesimulator/StandardFrameWorkProject.framework"; sourceTree = "<group>"; };
 		696A4A171E88FBEC00A02B4A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		69FCF50D1E8A09EA007FA69C /* UFWUmbrellaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFWUmbrellaViewController.h; sourceTree = "<group>"; };
+		69FCF50E1E8A09EA007FA69C /* UFWUmbrellaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFWUmbrellaViewController.m; sourceTree = "<group>"; };
+		69FCF50F1E8A09EA007FA69C /* UFWUmbrellaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UFWUmbrellaViewController.xib; sourceTree = "<group>"; };
 		BD81A8E4A523C673B31C9115 /* Pods-UmbrellaFrameWorkProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmbrellaFrameWorkProject.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-UmbrellaFrameWorkProject/Pods-UmbrellaFrameWorkProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +113,9 @@
 				544008D61E78DA6D0080F373 /* Info.plist */,
 				544008F21E78DCF60080F373 /* UFWPObject.h */,
 				544008F31E78DCF60080F373 /* UFWPObject.m */,
+				69FCF50D1E8A09EA007FA69C /* UFWUmbrellaViewController.h */,
+				69FCF50E1E8A09EA007FA69C /* UFWUmbrellaViewController.m */,
+				69FCF50F1E8A09EA007FA69C /* UFWUmbrellaViewController.xib */,
 			);
 			path = UmbrellaFrameWorkProject;
 			sourceTree = "<group>";
@@ -146,6 +155,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FCF5101E8A09EA007FA69C /* UFWUmbrellaViewController.h in Headers */,
 				544008F41E78DCF60080F373 /* UFWPObject.h in Headers */,
 				544008E31E78DA6D0080F373 /* UmbrellaFrameWorkProject.h in Headers */,
 			);
@@ -235,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FCF5121E8A09EA007FA69C /* UFWUmbrellaViewController.xib in Resources */,
 				544008EF1E78DC380080F373 /* Info.plist in Resources */,
 				696A4A181E88FBEC00A02B4A /* Media.xcassets in Resources */,
 			);
@@ -288,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				544008F51E78DCF60080F373 /* UFWPObject.m in Sources */,
+				69FCF5111E8A09EA007FA69C /* UFWUmbrellaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD81A8E4A523C673B31C9115 /* Pods-UmbrellaFrameWorkProject.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -418,7 +431,7 @@
 				INFOPLIST_FILE = UmbrellaFrameWorkProject/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-11.UmbrellaFrameWorkProject";
+				PRODUCT_BUNDLE_IDENTIFIER = UmbrellaFrameWorkProject.yangfl.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -428,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 46A88E86CAA947874E2CB6B0 /* Pods-UmbrellaFrameWorkProject.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -436,7 +450,7 @@
 				INFOPLIST_FILE = UmbrellaFrameWorkProject/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-11.UmbrellaFrameWorkProject";
+				PRODUCT_BUNDLE_IDENTIFIER = UmbrellaFrameWorkProject.yangfl.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

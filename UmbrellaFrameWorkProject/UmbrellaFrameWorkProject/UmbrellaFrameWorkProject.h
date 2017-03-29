@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char UmbrellaFrameWorkProjectVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <UmbrellaFrameWorkProject/PublicHeader.h>
 
 #import "UFWPObject.h"
+#import "UFWUmbrellaViewController.h"
