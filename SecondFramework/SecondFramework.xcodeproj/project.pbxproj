@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3A72C0B661B58D5FB38B6632 /* Pods_SecondFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DFFD828164A22222921322 /* Pods_SecondFramework.framework */; };
+		54423B361EA9DDA100CB1079 /* SECObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 54423B341EA9DDA100CB1079 /* SECObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54423B371EA9DDA100CB1079 /* SECObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 54423B351EA9DDA100CB1079 /* SECObject.m */; };
 		54D1FA551EA9B43A00116A57 /* SecondFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D1FA4B1EA9B43A00116A57 /* SecondFramework.framework */; };
 		54D1FA5A1EA9B43A00116A57 /* SecondFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1FA591EA9B43A00116A57 /* SecondFrameworkTests.m */; };
 		54D1FA5C1EA9B43A00116A57 /* SecondFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D1FA4E1EA9B43A00116A57 /* SecondFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54F11E911EA9C9F400BBADCE /* SECBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F11E8F1EA9C9F400BBADCE /* SECBaseModel.h */; };
 		54F11E921EA9C9F400BBADCE /* SECBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F11E901EA9C9F400BBADCE /* SECBaseModel.m */; };
-		54F11E951EA9CA0C00BBADCE /* SECListDTO.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F11E931EA9CA0C00BBADCE /* SECListDTO.h */; };
+		54F11E951EA9CA0C00BBADCE /* SECListDTO.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F11E931EA9CA0C00BBADCE /* SECListDTO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54F11E961EA9CA0C00BBADCE /* SECListDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F11E941EA9CA0C00BBADCE /* SECListDTO.m */; };
-		54F11E991EA9CA2E00BBADCE /* SECListDetailDTO.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F11E971EA9CA2E00BBADCE /* SECListDetailDTO.h */; };
+		54F11E991EA9CA2E00BBADCE /* SECListDetailDTO.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F11E971EA9CA2E00BBADCE /* SECListDetailDTO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54F11E9A1EA9CA2E00BBADCE /* SECListDetailDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F11E981EA9CA2E00BBADCE /* SECListDetailDTO.m */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 /* Begin PBXFileReference section */
 		01DFFD828164A22222921322 /* Pods_SecondFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecondFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48828D14C7F7CA6565F94C5B /* Pods-SecondFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondFramework.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SecondFramework/Pods-SecondFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		54423B341EA9DDA100CB1079 /* SECObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SECObject.h; sourceTree = "<group>"; };
+		54423B351EA9DDA100CB1079 /* SECObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SECObject.m; sourceTree = "<group>"; };
 		54D1FA4B1EA9B43A00116A57 /* SecondFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SecondFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D1FA4E1EA9B43A00116A57 /* SecondFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondFramework.h; sourceTree = "<group>"; };
 		54D1FA4F1EA9B43A00116A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				54F11E941EA9CA0C00BBADCE /* SECListDTO.m */,
 				54F11E971EA9CA2E00BBADCE /* SECListDetailDTO.h */,
 				54F11E981EA9CA2E00BBADCE /* SECListDetailDTO.m */,
+				54423B341EA9DDA100CB1079 /* SECObject.h */,
+				54423B351EA9DDA100CB1079 /* SECObject.m */,
 			);
 			path = SecondFramework;
 			sourceTree = "<group>";
@@ -137,6 +143,7 @@
 			files = (
 				54F11E951EA9CA0C00BBADCE /* SECListDTO.h in Headers */,
 				54F11E991EA9CA2E00BBADCE /* SECListDetailDTO.h in Headers */,
+				54423B361EA9DDA100CB1079 /* SECObject.h in Headers */,
 				54D1FA5C1EA9B43A00116A57 /* SecondFramework.h in Headers */,
 				54F11E911EA9C9F400BBADCE /* SECBaseModel.h in Headers */,
 			);
@@ -275,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54423B371EA9DDA100CB1079 /* SECObject.m in Sources */,
 				54F11E9A1EA9CA2E00BBADCE /* SECListDetailDTO.m in Sources */,
 				54F11E921EA9C9F400BBADCE /* SECBaseModel.m in Sources */,
 				54F11E961EA9CA0C00BBADCE /* SECListDTO.m in Sources */,

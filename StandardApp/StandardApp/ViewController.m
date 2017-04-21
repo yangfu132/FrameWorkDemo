@@ -24,6 +24,10 @@
     
     SFWPCustomObject* customObject = [[SFWPCustomObject alloc] init];
     strResult = [strResult stringByAppendingString:[customObject customStringForStandFrameWorkProject]];
+    
+    SECObject* secobject = [[SECObject alloc] init];
+    strResult = [strResult stringByAppendingString:[secobject nameForSecondFrameWorkProject]];
+    
     self.textShow.text = strResult;
 }
 
