@@ -1,6 +1,6 @@
+use_frameworks!
 workspace 'FrameWorkDemo.xcworkspace'
 xcodeproj 'StandardApp/StandardApp.xcodeproj'
-
 target 'StandardApp' do 
  platform :ios, '10.0'
  xcodeproj 'StandardApp/StandardApp.xcodeproj'
@@ -16,6 +16,7 @@ end
 target 'SecondFramework' do
     platform :ios, '10.0'
     xcodeproj 'SecondFramework/SecondFramework.xcodeproj'
+    pod 'JSONModel'
 end
 
 target 'UmbrellaFrameWorkProject' do

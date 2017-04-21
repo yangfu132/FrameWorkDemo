@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A72C0B661B58D5FB38B6632 /* Pods_SecondFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DFFD828164A22222921322 /* Pods_SecondFramework.framework */; };
 		54D1FA551EA9B43A00116A57 /* SecondFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D1FA4B1EA9B43A00116A57 /* SecondFramework.framework */; };
 		54D1FA5A1EA9B43A00116A57 /* SecondFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1FA591EA9B43A00116A57 /* SecondFrameworkTests.m */; };
 		54D1FA5C1EA9B43A00116A57 /* SecondFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D1FA4E1EA9B43A00116A57 /* SecondFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAB6B1504FEED6EAC3C5D91E /* libPods-SecondFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F907D8725FFE4C34D04C9E7 /* libPods-SecondFramework.a */; };
+		54F11E911EA9C9F400BBADCE /* SECBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F11E8F1EA9C9F400BBADCE /* SECBaseModel.h */; };
+		54F11E921EA9C9F400BBADCE /* SECBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F11E901EA9C9F400BBADCE /* SECBaseModel.m */; };
+		54F11E951EA9CA0C00BBADCE /* SECListDTO.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F11E931EA9CA0C00BBADCE /* SECListDTO.h */; };
+		54F11E961EA9CA0C00BBADCE /* SECListDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F11E941EA9CA0C00BBADCE /* SECListDTO.m */; };
+		54F11E991EA9CA2E00BBADCE /* SECListDetailDTO.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F11E971EA9CA2E00BBADCE /* SECListDetailDTO.h */; };
+		54F11E9A1EA9CA2E00BBADCE /* SECListDetailDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F11E981EA9CA2E00BBADCE /* SECListDetailDTO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01DFFD828164A22222921322 /* Pods_SecondFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecondFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48828D14C7F7CA6565F94C5B /* Pods-SecondFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondFramework.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SecondFramework/Pods-SecondFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		54D1FA4B1EA9B43A00116A57 /* SecondFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SecondFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D1FA4E1EA9B43A00116A57 /* SecondFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondFramework.h; sourceTree = "<group>"; };
@@ -31,8 +38,13 @@
 		54D1FA541EA9B43A00116A57 /* SecondFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D1FA591EA9B43A00116A57 /* SecondFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondFrameworkTests.m; sourceTree = "<group>"; };
 		54D1FA5B1EA9B43A00116A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F11E8F1EA9C9F400BBADCE /* SECBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SECBaseModel.h; sourceTree = "<group>"; };
+		54F11E901EA9C9F400BBADCE /* SECBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SECBaseModel.m; sourceTree = "<group>"; };
+		54F11E931EA9CA0C00BBADCE /* SECListDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SECListDTO.h; sourceTree = "<group>"; };
+		54F11E941EA9CA0C00BBADCE /* SECListDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SECListDTO.m; sourceTree = "<group>"; };
+		54F11E971EA9CA2E00BBADCE /* SECListDetailDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SECListDetailDTO.h; sourceTree = "<group>"; };
+		54F11E981EA9CA2E00BBADCE /* SECListDetailDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SECListDetailDTO.m; sourceTree = "<group>"; };
 		911E971C62D26FB25565C1BA /* Pods-SecondFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondFramework.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SecondFramework/Pods-SecondFramework.release.xcconfig"; sourceTree = "<group>"; };
-		9F907D8725FFE4C34D04C9E7 /* libPods-SecondFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SecondFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAB6B1504FEED6EAC3C5D91E /* libPods-SecondFramework.a in Frameworks */,
+				3A72C0B661B58D5FB38B6632 /* Pods_SecondFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +101,12 @@
 			children = (
 				54D1FA4E1EA9B43A00116A57 /* SecondFramework.h */,
 				54D1FA4F1EA9B43A00116A57 /* Info.plist */,
+				54F11E8F1EA9C9F400BBADCE /* SECBaseModel.h */,
+				54F11E901EA9C9F400BBADCE /* SECBaseModel.m */,
+				54F11E931EA9CA0C00BBADCE /* SECListDTO.h */,
+				54F11E941EA9CA0C00BBADCE /* SECListDTO.m */,
+				54F11E971EA9CA2E00BBADCE /* SECListDetailDTO.h */,
+				54F11E981EA9CA2E00BBADCE /* SECListDetailDTO.m */,
 			);
 			path = SecondFramework;
 			sourceTree = "<group>";
@@ -105,7 +123,7 @@
 		A11F80B3792E47225C240BFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F907D8725FFE4C34D04C9E7 /* libPods-SecondFramework.a */,
+				01DFFD828164A22222921322 /* Pods_SecondFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,7 +135,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F11E951EA9CA0C00BBADCE /* SECListDTO.h in Headers */,
+				54F11E991EA9CA2E00BBADCE /* SECListDetailDTO.h in Headers */,
 				54D1FA5C1EA9B43A00116A57 /* SecondFramework.h in Headers */,
+				54F11E911EA9C9F400BBADCE /* SECBaseModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F11E9A1EA9CA2E00BBADCE /* SECListDetailDTO.m in Sources */,
+				54F11E921EA9C9F400BBADCE /* SECBaseModel.m in Sources */,
+				54F11E961EA9CA0C00BBADCE /* SECListDTO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,10 +407,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				INFOPLIST_FILE = SecondFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_GENERATE_MAP_FILE = NO;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.SecondFramework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -402,10 +428,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				INFOPLIST_FILE = SecondFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_GENERATE_MAP_FILE = NO;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.SecondFramework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

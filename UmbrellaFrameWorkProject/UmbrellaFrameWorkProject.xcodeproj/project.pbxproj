@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E57E295DDA7883B4FD19D67 /* libPods-UmbrellaFrameWorkProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3925E3B0FF370F663BC638 /* libPods-UmbrellaFrameWorkProject.a */; };
 		544008DC1E78DA6D0080F373 /* UmbrellaFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544008D21E78DA6D0080F373 /* UmbrellaFrameWorkProject.framework */; };
 		544008E11E78DA6D0080F373 /* UmbrellaFrameWorkProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544008E01E78DA6D0080F373 /* UmbrellaFrameWorkProjectTests.m */; };
 		544008E31E78DA6D0080F373 /* UmbrellaFrameWorkProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 544008D51E78DA6D0080F373 /* UmbrellaFrameWorkProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -19,6 +18,7 @@
 		69FCF5101E8A09EA007FA69C /* UFWUmbrellaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FCF50D1E8A09EA007FA69C /* UFWUmbrellaViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69FCF5111E8A09EA007FA69C /* UFWUmbrellaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FCF50E1E8A09EA007FA69C /* UFWUmbrellaViewController.m */; };
 		69FCF5121E8A09EA007FA69C /* UFWUmbrellaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69FCF50F1E8A09EA007FA69C /* UFWUmbrellaViewController.xib */; };
+		F273F284AA2D56FADEDF7CEC /* Pods_UmbrellaFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB2223F8DB0FD0EC5E25F2B /* Pods_UmbrellaFrameWorkProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,6 @@
 
 /* Begin PBXFileReference section */
 		46A88E86CAA947874E2CB6B0 /* Pods-UmbrellaFrameWorkProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmbrellaFrameWorkProject.release.xcconfig"; path = "../Pods/Target Support Files/Pods-UmbrellaFrameWorkProject/Pods-UmbrellaFrameWorkProject.release.xcconfig"; sourceTree = "<group>"; };
-		4E3925E3B0FF370F663BC638 /* libPods-UmbrellaFrameWorkProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UmbrellaFrameWorkProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		544008D21E78DA6D0080F373 /* UmbrellaFrameWorkProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UmbrellaFrameWorkProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		544008D51E78DA6D0080F373 /* UmbrellaFrameWorkProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UmbrellaFrameWorkProject.h; sourceTree = "<group>"; };
 		544008D61E78DA6D0080F373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		69FCF50D1E8A09EA007FA69C /* UFWUmbrellaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFWUmbrellaViewController.h; sourceTree = "<group>"; };
 		69FCF50E1E8A09EA007FA69C /* UFWUmbrellaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFWUmbrellaViewController.m; sourceTree = "<group>"; };
 		69FCF50F1E8A09EA007FA69C /* UFWUmbrellaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UFWUmbrellaViewController.xib; sourceTree = "<group>"; };
+		7EB2223F8DB0FD0EC5E25F2B /* Pods_UmbrellaFrameWorkProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UmbrellaFrameWorkProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD81A8E4A523C673B31C9115 /* Pods-UmbrellaFrameWorkProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmbrellaFrameWorkProject.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-UmbrellaFrameWorkProject/Pods-UmbrellaFrameWorkProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E57E295DDA7883B4FD19D67 /* libPods-UmbrellaFrameWorkProject.a in Frameworks */,
+				F273F284AA2D56FADEDF7CEC /* Pods_UmbrellaFrameWorkProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +134,7 @@
 			children = (
 				6943C3CC1E825F85006248EA /* StandardFrameWorkProject.framework */,
 				545425D31E790DB7001C4463 /* StandardFrameWorkProject.framework */,
-				4E3925E3B0FF370F663BC638 /* libPods-UmbrellaFrameWorkProject.a */,
+				7EB2223F8DB0FD0EC5E25F2B /* Pods_UmbrellaFrameWorkProject.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

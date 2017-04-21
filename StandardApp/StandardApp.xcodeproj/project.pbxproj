@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E7407D72A770F58BC2EF3D6 /* libPods-StandardApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C1FB97FBC458F774C9FFB0 /* libPods-StandardApp.a */; };
 		545425711E790A92001C4463 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 545425701E790A92001C4463 /* main.m */; };
 		545425741E790A92001C4463 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 545425731E790A92001C4463 /* AppDelegate.m */; };
 		545425771E790A92001C4463 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 545425761E790A92001C4463 /* ViewController.m */; };
@@ -21,6 +20,7 @@
 		54DC19301E9F59A200C965F4 /* StandardFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54DC192F1E9F59A200C965F4 /* StandardFrameWorkProject.framework */; };
 		54DC19311E9F59A200C965F4 /* StandardFrameWorkProject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 54DC192F1E9F59A200C965F4 /* StandardFrameWorkProject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6943C3CB1E825E0D006248EA /* libPods-StandardApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6943C3CA1E825E0D006248EA /* libPods-StandardApp.a */; };
+		B975FF5A4B6A29F76E59FC53 /* Pods_StandardApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5B53BD6797496ACC3AD8B2 /* Pods_StandardApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		42C1FB97FBC458F774C9FFB0 /* libPods-StandardApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StandardApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5B53BD6797496ACC3AD8B2 /* Pods_StandardApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StandardApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5454256C1E790A92001C4463 /* StandardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		545425701E790A92001C4463 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		545425721E790A92001C4463 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,8 +89,8 @@
 			files = (
 				6943C3CB1E825E0D006248EA /* libPods-StandardApp.a in Frameworks */,
 				54DC19301E9F59A200C965F4 /* StandardFrameWorkProject.framework in Frameworks */,
-				4E7407D72A770F58BC2EF3D6 /* libPods-StandardApp.a in Frameworks */,
 				54D1FA661EA9B44A00116A57 /* SecondFramework.framework in Frameworks */,
+				B975FF5A4B6A29F76E59FC53 /* Pods_StandardApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +183,7 @@
 				6943C3CA1E825E0D006248EA /* libPods-StandardApp.a */,
 				6943C3C81E825E00006248EA /* UmbrellaFrameWorkProject.framework */,
 				6943C3C61E825DFC006248EA /* StandardFrameWorkProject.framework */,
-				42C1FB97FBC458F774C9FFB0 /* libPods-StandardApp.a */,
+				3A5B53BD6797496ACC3AD8B2 /* Pods_StandardApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -534,7 +534,11 @@
 			baseConfigurationReference = EC5E6445A92A3F900BB2B5F8 /* Pods-StandardApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				INFOPLIST_FILE = StandardApp/Info.plist;
+				LD_NO_PIE = NO;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.StandardApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -546,7 +550,11 @@
 			baseConfigurationReference = E12DA0B619254C334E56162D /* Pods-StandardApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				INFOPLIST_FILE = StandardApp/Info.plist;
+				LD_NO_PIE = NO;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.StandardApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
