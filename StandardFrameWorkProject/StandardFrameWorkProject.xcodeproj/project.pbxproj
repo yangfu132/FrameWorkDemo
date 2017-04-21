@@ -14,6 +14,12 @@
 		545425C91E790B28001C4463 /* SFWPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 545425C71E790B28001C4463 /* SFWPObject.m */; };
 		5454261D1E79164F001C4463 /* SFWPCustomObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5454261B1E79164F001C4463 /* SFWPCustomObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5454261E1E79164F001C4463 /* SFWPCustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5454261C1E79164F001C4463 /* SFWPCustomObject.m */; };
+		54D1FA371EA9B09500116A57 /* SFBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D1FA351EA9B09500116A57 /* SFBaseModel.h */; };
+		54D1FA381EA9B09500116A57 /* SFBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1FA361EA9B09500116A57 /* SFBaseModel.m */; };
+		54D1FA3B1EA9B0D800116A57 /* SFListDTO.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D1FA391EA9B0D800116A57 /* SFListDTO.h */; };
+		54D1FA3C1EA9B0D800116A57 /* SFListDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1FA3A1EA9B0D800116A57 /* SFListDTO.m */; };
+		54D1FA3F1EA9B0E900116A57 /* SFListDetailDTO.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D1FA3D1EA9B0E900116A57 /* SFListDetailDTO.h */; };
+		54D1FA401EA9B0E900116A57 /* SFListDetailDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1FA3E1EA9B0E900116A57 /* SFListDetailDTO.m */; };
 		F18DD801BBB68365BEACCA7C /* libPods-StandardFrameWorkProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E50678E38593D81BA22DA44 /* libPods-StandardFrameWorkProject.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +44,12 @@
 		545425C71E790B28001C4463 /* SFWPObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFWPObject.m; sourceTree = "<group>"; };
 		5454261B1E79164F001C4463 /* SFWPCustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFWPCustomObject.h; sourceTree = "<group>"; };
 		5454261C1E79164F001C4463 /* SFWPCustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFWPCustomObject.m; sourceTree = "<group>"; };
+		54D1FA351EA9B09500116A57 /* SFBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBaseModel.h; sourceTree = "<group>"; };
+		54D1FA361EA9B09500116A57 /* SFBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBaseModel.m; sourceTree = "<group>"; };
+		54D1FA391EA9B0D800116A57 /* SFListDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFListDTO.h; sourceTree = "<group>"; };
+		54D1FA3A1EA9B0D800116A57 /* SFListDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFListDTO.m; sourceTree = "<group>"; };
+		54D1FA3D1EA9B0E900116A57 /* SFListDetailDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFListDetailDTO.h; sourceTree = "<group>"; };
+		54D1FA3E1EA9B0E900116A57 /* SFListDetailDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFListDetailDTO.m; sourceTree = "<group>"; };
 		6E50678E38593D81BA22DA44 /* libPods-StandardFrameWorkProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StandardFrameWorkProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		779366FCD9099984F434DA19 /* Pods-StandardFrameWorkProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandardFrameWorkProject.release.xcconfig"; path = "../Pods/Target Support Files/Pods-StandardFrameWorkProject/Pods-StandardFrameWorkProject.release.xcconfig"; sourceTree = "<group>"; };
 		EE1EEAF3A9AEA7F0A00564CA /* Pods-StandardFrameWorkProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandardFrameWorkProject.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-StandardFrameWorkProject/Pods-StandardFrameWorkProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +121,12 @@
 			children = (
 				5454261B1E79164F001C4463 /* SFWPCustomObject.h */,
 				5454261C1E79164F001C4463 /* SFWPCustomObject.m */,
+				54D1FA351EA9B09500116A57 /* SFBaseModel.h */,
+				54D1FA361EA9B09500116A57 /* SFBaseModel.m */,
+				54D1FA391EA9B0D800116A57 /* SFListDTO.h */,
+				54D1FA3A1EA9B0D800116A57 /* SFListDTO.m */,
+				54D1FA3D1EA9B0E900116A57 /* SFListDetailDTO.h */,
+				54D1FA3E1EA9B0E900116A57 /* SFListDetailDTO.m */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -137,6 +155,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D1FA3F1EA9B0E900116A57 /* SFListDetailDTO.h in Headers */,
+				54D1FA3B1EA9B0D800116A57 /* SFListDTO.h in Headers */,
+				54D1FA371EA9B09500116A57 /* SFBaseModel.h in Headers */,
 				5454261D1E79164F001C4463 /* SFWPCustomObject.h in Headers */,
 				545425C81E790B28001C4463 /* SFWPObject.h in Headers */,
 				545425BD1E790B07001C4463 /* StandardFrameWorkProject.h in Headers */,
@@ -276,7 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D1FA381EA9B09500116A57 /* SFBaseModel.m in Sources */,
+				54D1FA401EA9B0E900116A57 /* SFListDetailDTO.m in Sources */,
 				545425C91E790B28001C4463 /* SFWPObject.m in Sources */,
+				54D1FA3C1EA9B0D800116A57 /* SFListDTO.m in Sources */,
 				5454261E1E79164F001C4463 /* SFWPCustomObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +432,7 @@
 				INFOPLIST_FILE = StandardFrameWorkProject/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.StandardFrameWorkProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -426,6 +451,7 @@
 				INFOPLIST_FILE = StandardFrameWorkProject/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.StandardFrameWorkProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -471,6 +497,7 @@
 				545425C21E790B07001C4463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		545425C31E790B07001C4463 /* Build configuration list for PBXNativeTarget "StandardFrameWorkProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +506,7 @@
 				545425C51E790B07001C4463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

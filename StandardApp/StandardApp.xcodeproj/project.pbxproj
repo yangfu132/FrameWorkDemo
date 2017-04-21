@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E7407D72A770F58BC2EF3D6 /* libPods-StandardApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C1FB97FBC458F774C9FFB0 /* libPods-StandardApp.a */; };
 		545425711E790A92001C4463 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 545425701E790A92001C4463 /* main.m */; };
 		545425741E790A92001C4463 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 545425731E790A92001C4463 /* AppDelegate.m */; };
 		545425771E790A92001C4463 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 545425761E790A92001C4463 /* ViewController.m */; };
@@ -15,9 +16,11 @@
 		5454257F1E790A92001C4463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5454257D1E790A92001C4463 /* LaunchScreen.storyboard */; };
 		5454258A1E790A92001C4463 /* StandardAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 545425891E790A92001C4463 /* StandardAppTests.m */; };
 		545425951E790A93001C4463 /* StandardAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 545425941E790A93001C4463 /* StandardAppUITests.m */; };
-		6943C3C71E825DFC006248EA /* StandardFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6943C3C61E825DFC006248EA /* StandardFrameWorkProject.framework */; };
+		54D1FA661EA9B44A00116A57 /* SecondFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D1FA651EA9B44A00116A57 /* SecondFramework.framework */; };
+		54D1FA671EA9B44A00116A57 /* SecondFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 54D1FA651EA9B44A00116A57 /* SecondFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		54DC19301E9F59A200C965F4 /* StandardFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54DC192F1E9F59A200C965F4 /* StandardFrameWorkProject.framework */; };
+		54DC19311E9F59A200C965F4 /* StandardFrameWorkProject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 54DC192F1E9F59A200C965F4 /* StandardFrameWorkProject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6943C3CB1E825E0D006248EA /* libPods-StandardApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6943C3CA1E825E0D006248EA /* libPods-StandardApp.a */; };
-		FCF8ED2AE6246CC6497E6C56 /* libPods-StandardApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C1FB97FBC458F774C9FFB0 /* libPods-StandardApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				54DC19311E9F59A200C965F4 /* StandardFrameWorkProject.framework in Embed Frameworks */,
+				54D1FA671EA9B44A00116A57 /* SecondFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +73,8 @@
 		545425901E790A93001C4463 /* StandardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		545425941E790A93001C4463 /* StandardAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandardAppUITests.m; sourceTree = "<group>"; };
 		545425961E790A93001C4463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D1FA651EA9B44A00116A57 /* SecondFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SecondFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DC192F1E9F59A200C965F4 /* StandardFrameWorkProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StandardFrameWorkProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6943C3C61E825DFC006248EA /* StandardFrameWorkProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StandardFrameWorkProject.framework; path = "../../Library/Developer/Xcode/DerivedData/FrameWorkDemo-cltvtlrmujwjjpasxopmzgkgbcrt/Build/Products/Debug-iphonesimulator/StandardFrameWorkProject.framework"; sourceTree = "<group>"; };
 		6943C3C81E825E00006248EA /* UmbrellaFrameWorkProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UmbrellaFrameWorkProject.framework; path = "../../Library/Developer/Xcode/DerivedData/FrameWorkDemo-cltvtlrmujwjjpasxopmzgkgbcrt/Build/Products/Debug-iphonesimulator/UmbrellaFrameWorkProject.framework"; sourceTree = "<group>"; };
 		6943C3CA1E825E0D006248EA /* libPods-StandardApp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-StandardApp.a"; path = "/Users/yangfl/FrameWorkDemo/Pods/../build/Debug-iphoneos/libPods-StandardApp.a"; sourceTree = "<absolute>"; };
@@ -81,8 +88,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6943C3CB1E825E0D006248EA /* libPods-StandardApp.a in Frameworks */,
-				6943C3C71E825DFC006248EA /* StandardFrameWorkProject.framework in Frameworks */,
-				FCF8ED2AE6246CC6497E6C56 /* libPods-StandardApp.a in Frameworks */,
+				54DC19301E9F59A200C965F4 /* StandardFrameWorkProject.framework in Frameworks */,
+				4E7407D72A770F58BC2EF3D6 /* libPods-StandardApp.a in Frameworks */,
+				54D1FA661EA9B44A00116A57 /* SecondFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +114,8 @@
 		545425631E790A92001C4463 = {
 			isa = PBXGroup;
 			children = (
+				54D1FA651EA9B44A00116A57 /* SecondFramework.framework */,
+				54DC192F1E9F59A200C965F4 /* StandardFrameWorkProject.framework */,
 				5454256E1E790A92001C4463 /* StandardApp */,
 				545425881E790A92001C4463 /* StandardAppTests */,
 				545425931E790A93001C4463 /* StandardAppUITests */,

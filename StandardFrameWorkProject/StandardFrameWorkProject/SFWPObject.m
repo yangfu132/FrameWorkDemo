@@ -7,11 +7,23 @@
 //
 
 #import "SFWPObject.h"
-
+#import "SFListDTO.h"
 @implementation SFWPObject
 
 - (NSString*) nameForStandFrameWorkProject
 {
+    NSDictionary* dict = @{@"isOK":@"1",
+                           @"orderListArray":@[@{@"isOK":@"1"}]} ;
+    SFListDTO* dto = [[SFListDTO alloc] initWithDictionary:dict error:nil];
+    if (dto)
+    {
+        SFListDetailDTO* detail = [dto.orderListArray firstObject];
+        if (detail)
+        {
+            
+        }
+        
+    }
     return @"Name For Stand by Standard!";
 }
 

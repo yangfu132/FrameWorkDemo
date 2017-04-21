@@ -15,7 +15,8 @@
 		545425F21E790E06001C4463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545425F01E790E06001C4463 /* LaunchScreen.storyboard */; };
 		545425FD1E790E06001C4463 /* UmbrellaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 545425FC1E790E06001C4463 /* UmbrellaAppTests.m */; };
 		545426081E790E06001C4463 /* UmbrellaAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 545426071E790E06001C4463 /* UmbrellaAppUITests.m */; };
-		545426171E790ECB001C4463 /* UmbrellaFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545426161E790ECB001C4463 /* UmbrellaFrameWorkProject.framework */; };
+		54DC19321E9F59B100C965F4 /* UmbrellaFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545426161E790ECB001C4463 /* UmbrellaFrameWorkProject.framework */; };
+		54DC19331E9F59B100C965F4 /* UmbrellaFrameWorkProject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 545426161E790ECB001C4463 /* UmbrellaFrameWorkProject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FD720CA9F0DE07504EEFF61B /* libPods-UmbrellaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A85DDB46F9F2A850B71A7ED2 /* libPods-UmbrellaApp.a */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,20 @@
 			remoteInfo = UmbrellaApp;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		54DC19341E9F59B100C965F4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				54DC19331E9F59B100C965F4 /* UmbrellaFrameWorkProject.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		545425DF1E790E06001C4463 /* UmbrellaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UmbrellaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				545426171E790ECB001C4463 /* UmbrellaFrameWorkProject.framework in Frameworks */,
 				FD720CA9F0DE07504EEFF61B /* libPods-UmbrellaApp.a in Frameworks */,
+				54DC19321E9F59B100C965F4 /* UmbrellaFrameWorkProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +196,7 @@
 				545425DD1E790E06001C4463 /* Resources */,
 				6C5E423F14CAAD7D7079AA9A /* [CP] Embed Pods Frameworks */,
 				7B109485C3476C230E99FACC /* [CP] Copy Pods Resources */,
+				54DC19341E9F59B100C965F4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -588,6 +604,7 @@
 				5454260E1E790E06001C4463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5454260F1E790E06001C4463 /* Build configuration list for PBXNativeTarget "UmbrellaAppTests" */ = {
 			isa = XCConfigurationList;
@@ -596,6 +613,7 @@
 				545426111E790E06001C4463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		545426121E790E06001C4463 /* Build configuration list for PBXNativeTarget "UmbrellaAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -604,6 +622,7 @@
 				545426141E790E06001C4463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

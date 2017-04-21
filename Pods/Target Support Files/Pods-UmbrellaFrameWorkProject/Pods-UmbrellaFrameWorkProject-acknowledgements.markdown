@@ -1,11 +1,9 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## SpinKit
+## JSONModel
 
-The MIT License (MIT)
-
-Copyright (c) 2014 Ramon Torres
+Copyright (c) 2012-2016 Marin Todorov and JSONModel contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
