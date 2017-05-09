@@ -13,12 +13,12 @@
 		544008EF1E78DC380080F373 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 544008D61E78DA6D0080F373 /* Info.plist */; };
 		544008F41E78DCF60080F373 /* UFWPObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 544008F21E78DCF60080F373 /* UFWPObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		544008F51E78DCF60080F373 /* UFWPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 544008F31E78DCF60080F373 /* UFWPObject.m */; };
+		60539234AB5D6FFDC3495B89 /* libPods-UmbrellaFrameWorkProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8509ABD2A919C51C2CE07345 /* libPods-UmbrellaFrameWorkProject.a */; };
 		6943C3CE1E825F91006248EA /* StandardFrameWorkProject.framework in Sub Frameworks */ = {isa = PBXBuildFile; fileRef = 6943C3CC1E825F85006248EA /* StandardFrameWorkProject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		696A4A181E88FBEC00A02B4A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696A4A171E88FBEC00A02B4A /* Media.xcassets */; };
 		69FCF5101E8A09EA007FA69C /* UFWUmbrellaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FCF50D1E8A09EA007FA69C /* UFWUmbrellaViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69FCF5111E8A09EA007FA69C /* UFWUmbrellaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FCF50E1E8A09EA007FA69C /* UFWUmbrellaViewController.m */; };
 		69FCF5121E8A09EA007FA69C /* UFWUmbrellaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69FCF50F1E8A09EA007FA69C /* UFWUmbrellaViewController.xib */; };
-		F273F284AA2D56FADEDF7CEC /* Pods_UmbrellaFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB2223F8DB0FD0EC5E25F2B /* Pods_UmbrellaFrameWorkProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +61,7 @@
 		69FCF50D1E8A09EA007FA69C /* UFWUmbrellaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFWUmbrellaViewController.h; sourceTree = "<group>"; };
 		69FCF50E1E8A09EA007FA69C /* UFWUmbrellaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFWUmbrellaViewController.m; sourceTree = "<group>"; };
 		69FCF50F1E8A09EA007FA69C /* UFWUmbrellaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UFWUmbrellaViewController.xib; sourceTree = "<group>"; };
-		7EB2223F8DB0FD0EC5E25F2B /* Pods_UmbrellaFrameWorkProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UmbrellaFrameWorkProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8509ABD2A919C51C2CE07345 /* libPods-UmbrellaFrameWorkProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UmbrellaFrameWorkProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD81A8E4A523C673B31C9115 /* Pods-UmbrellaFrameWorkProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmbrellaFrameWorkProject.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-UmbrellaFrameWorkProject/Pods-UmbrellaFrameWorkProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F273F284AA2D56FADEDF7CEC /* Pods_UmbrellaFrameWorkProject.framework in Frameworks */,
+				60539234AB5D6FFDC3495B89 /* libPods-UmbrellaFrameWorkProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +134,7 @@
 			children = (
 				6943C3CC1E825F85006248EA /* StandardFrameWorkProject.framework */,
 				545425D31E790DB7001C4463 /* StandardFrameWorkProject.framework */,
-				7EB2223F8DB0FD0EC5E25F2B /* Pods_UmbrellaFrameWorkProject.framework */,
+				8509ABD2A919C51C2CE07345 /* libPods-UmbrellaFrameWorkProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

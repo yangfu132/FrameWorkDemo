@@ -20,7 +20,7 @@
 		54D1FA3C1EA9B0D800116A57 /* SFListDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1FA3A1EA9B0D800116A57 /* SFListDTO.m */; };
 		54D1FA3F1EA9B0E900116A57 /* SFListDetailDTO.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D1FA3D1EA9B0E900116A57 /* SFListDetailDTO.h */; };
 		54D1FA401EA9B0E900116A57 /* SFListDetailDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1FA3E1EA9B0E900116A57 /* SFListDetailDTO.m */; };
-		C1C9E8937F151139E04D6DF7 /* Pods_StandardFrameWorkProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D31C9487A3B1270C766CC38 /* Pods_StandardFrameWorkProject.framework */; };
+		9C55B601F3DBAE265410410F /* libPods-StandardFrameWorkProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8354B9F3BD90547CBD04B80F /* libPods-StandardFrameWorkProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +50,8 @@
 		54D1FA3A1EA9B0D800116A57 /* SFListDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFListDTO.m; sourceTree = "<group>"; };
 		54D1FA3D1EA9B0E900116A57 /* SFListDetailDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFListDetailDTO.h; sourceTree = "<group>"; };
 		54D1FA3E1EA9B0E900116A57 /* SFListDetailDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFListDetailDTO.m; sourceTree = "<group>"; };
-		5D31C9487A3B1270C766CC38 /* Pods_StandardFrameWorkProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StandardFrameWorkProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		779366FCD9099984F434DA19 /* Pods-StandardFrameWorkProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandardFrameWorkProject.release.xcconfig"; path = "../Pods/Target Support Files/Pods-StandardFrameWorkProject/Pods-StandardFrameWorkProject.release.xcconfig"; sourceTree = "<group>"; };
+		8354B9F3BD90547CBD04B80F /* libPods-StandardFrameWorkProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StandardFrameWorkProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1EEAF3A9AEA7F0A00564CA /* Pods-StandardFrameWorkProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandardFrameWorkProject.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-StandardFrameWorkProject/Pods-StandardFrameWorkProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1C9E8937F151139E04D6DF7 /* Pods_StandardFrameWorkProject.framework in Frameworks */,
+				9C55B601F3DBAE265410410F /* libPods-StandardFrameWorkProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +143,7 @@
 		D1B1D7168950F4AEA1905F62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5D31C9487A3B1270C766CC38 /* Pods_StandardFrameWorkProject.framework */,
+				8354B9F3BD90547CBD04B80F /* libPods-StandardFrameWorkProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

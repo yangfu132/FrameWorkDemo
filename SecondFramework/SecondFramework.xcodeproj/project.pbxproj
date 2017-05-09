@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A72C0B661B58D5FB38B6632 /* Pods_SecondFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DFFD828164A22222921322 /* Pods_SecondFramework.framework */; };
 		54423B361EA9DDA100CB1079 /* SECObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 54423B341EA9DDA100CB1079 /* SECObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54423B371EA9DDA100CB1079 /* SECObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 54423B351EA9DDA100CB1079 /* SECObject.m */; };
 		54D1FA551EA9B43A00116A57 /* SecondFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D1FA4B1EA9B43A00116A57 /* SecondFramework.framework */; };
@@ -19,6 +18,7 @@
 		54F11E961EA9CA0C00BBADCE /* SECListDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F11E941EA9CA0C00BBADCE /* SECListDTO.m */; };
 		54F11E991EA9CA2E00BBADCE /* SECListDetailDTO.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F11E971EA9CA2E00BBADCE /* SECListDetailDTO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54F11E9A1EA9CA2E00BBADCE /* SECListDetailDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F11E981EA9CA2E00BBADCE /* SECListDetailDTO.m */; };
+		D431F8EF66D42FB97266D6E6 /* libPods-SecondFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 658DFD759CECD6AE6122109F /* libPods-SecondFramework.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01DFFD828164A22222921322 /* Pods_SecondFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecondFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48828D14C7F7CA6565F94C5B /* Pods-SecondFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondFramework.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SecondFramework/Pods-SecondFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		54423B341EA9DDA100CB1079 /* SECObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SECObject.h; sourceTree = "<group>"; };
 		54423B351EA9DDA100CB1079 /* SECObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SECObject.m; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		54F11E941EA9CA0C00BBADCE /* SECListDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SECListDTO.m; sourceTree = "<group>"; };
 		54F11E971EA9CA2E00BBADCE /* SECListDetailDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SECListDetailDTO.h; sourceTree = "<group>"; };
 		54F11E981EA9CA2E00BBADCE /* SECListDetailDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SECListDetailDTO.m; sourceTree = "<group>"; };
+		658DFD759CECD6AE6122109F /* libPods-SecondFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SecondFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		911E971C62D26FB25565C1BA /* Pods-SecondFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondFramework.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SecondFramework/Pods-SecondFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A72C0B661B58D5FB38B6632 /* Pods_SecondFramework.framework in Frameworks */,
+				D431F8EF66D42FB97266D6E6 /* libPods-SecondFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +129,7 @@
 		A11F80B3792E47225C240BFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				01DFFD828164A22222921322 /* Pods_SecondFramework.framework */,
+				658DFD759CECD6AE6122109F /* libPods-SecondFramework.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
